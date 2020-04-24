@@ -173,8 +173,6 @@ lang.values.en = {
     "widgets.install.info" : "You can install user-made widgets easily. Just paste the full github repository URL, including the https:// part. If this repository is a valid RCON web admin widget then it will be installed. RCON web admin will restart during this process. Always make sure to have a backup of your RCON web admin install in case you install a corrupt widget that destroys your installation. If the new widgets bricks your install, deleting the widget folder in 'public/widgets/WIDGET_NAME' and restarting the server should do the job.",
     "widgets.install.btn" : "Install now",
     "widgets.install.invalid" : "Invalid widget repository",
-    "support.creator.tooltip" : "They'd appreciate it.",
-    "support.creator" : "Donate to the creator"
 };
 
 // de values
@@ -293,8 +291,6 @@ lang.values.de = {
     "widgets.install.info" : "Du kannst Widgets von der Community ganz einfach installieren. Füge dazu die Github Repository URL ein, inklusive https://. Falls das Repository ein gültiges Widget Repository ist wird es installiert. Dazu wird RCON Web Admin neu gestartet. Mache immer ein Backup im Falle eines Fehlers oder fehlerhaften Widgets. Generell ist empfohlen erst einmal, bei einem fehlerhaften Widget, den Widget Folder unter 'public/widgets/xxx' zu löschen und das Web Admin neu zu starten.",
     "widgets.install.btn" : "Jetzt installieren",
     "widgets.install.invalid" : "Kein korrektes Widget Repository",
-    "support.creator.tooltip" : "Ich bedanke mich. Du musst natürlich gar nichts spenden. Das Tool ist gratis und wird immer gratis bleiben. Grüße, BrainFooLong",
-    "support.creator" : "Willst ein paar RedBull für den Entwickler spenden?",
 };
 
 /**
@@ -303,7 +299,7 @@ lang.values.de = {
  */
 lang.language = "en";
 
-// check for a other supported language depending on the users defined languages
+// check for a other supported language depending on the users defined languags
 if (navigator.languages) {
     (function () {
         for (var i = 0; i < navigator.languages.length; i++) {
@@ -315,3 +311,4 @@ if (navigator.languages) {
         }
     })();
 }
+
