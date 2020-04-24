@@ -15,14 +15,14 @@ if (!mode) {
 
 if (mode == "start") {
     if (process.env.RWA_ENV == "TRUE") {
-        require(__dirname + "/env")
+        require('./env')
     }
-    require(__dirname + "/routes");
-    require(__dirname + "/rconserver");
-    require(__dirname + "/websocketmgr");
-    require(__dirname + "/steamapi");
-    require(__dirname + "/config");
-    require(__dirname + "/core");
+    require('./routes');
+    require('./rconserver');
+    require('/websocketmgr');
+    require('/steamapi');
+    require('/config');
+    require('/core');
     return;
 }
 
